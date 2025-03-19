@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bgmiqJLWeKJ2y0R9sriE/ZA2BjRVPWSVROzOW4Wq3SGnSbumnvF3XcP1mrYLUkVxPMvqq9hyGjPGQranvGd3Qg==",
+  "success": true,
+  "projectFilePath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj",
+  "expectedPackageFiles": [
+    "/Users/verhovnyjmag/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/bin/Debug/net7.0/FinanceLibrary.deps.json
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/bin/Debug/net7.0/FinanceLibrary.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/bin/Debug/net7.0/FinanceLibrary.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.AssemblyInfoInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.AssemblyInfo.cs
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.csproj.CoreCompileInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/refint/FinanceLibrary.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/FinanceLibrary.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/Debug/net7.0/ref/FinanceLibrary.dll

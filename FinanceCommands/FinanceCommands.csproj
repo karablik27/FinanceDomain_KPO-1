@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BankAccountCommands\" />
+    <None Remove="CategoryCommands\" />
+    <None Remove="OperationCommands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BankAccountCommands\" />
+    <Folder Include="CategoryCommands\" />
+    <Folder Include="OperationCommands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinanceLibrary\FinanceLibrary.csproj" />
+    <ProjectReference Include="..\FinanceFacade\FinanceFacade.csproj" />
+  </ItemGroup>
+</Project>
