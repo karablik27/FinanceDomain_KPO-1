@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Копировать все зависимости в выходную папку -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <!-- Подавление предупреждений о поддержке таргета -->
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinanceLibrary\FinanceLibrary.csproj" />
+    <ProjectReference Include="..\FinanceApp\FinanceApp.csproj" />
+    <ProjectReference Include="..\FinanceCommands\FinanceCommands.csproj" />
+    <ProjectReference Include="..\FinanceDataImporterExporter\FinanceDataImporterExporter.csproj" />
+    <ProjectReference Include="..\FinanceFacade\FinanceFacade.csproj" />
+    <ProjectReference Include="..\FinTech\FinTech.csproj" />
+  </ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  <PackageReference Include="xunit" Version="2.9.3" />
+  <PackageReference Include="xunit.runner.visualstudio" Version="3.0.2">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+</ItemGroup>
+
+<ItemGroup>
+  <None Remove="FinanceClassesTest\" />
+  <None Remove="FinanceFacadeTests\" />
+  <None Remove="ImportTests\" />
+  <None Remove="ExportTests\" />
+</ItemGroup>
+<ItemGroup>
+  <Folder Include="FinanceClassesTest\" />
+  <Folder Include="FinanceFacadeTests\" />
+  <Folder Include="ImportTests\" />
+  <Folder Include="ExportTests\" />
+</ItemGroup>
+</Project>

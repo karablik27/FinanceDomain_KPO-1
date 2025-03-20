@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PIXWfM0CG2ed010UYCuEwLR/xi2wkbaiZoJJ3MnufZd7Ivcro+FnyXTu5crjMA7nzVQ8oSHPDO13tO8ddDfvjA==",
+  "dgSpecHash": "afHkLrfHeGMESDHaJNrHyDYJdZ9REnYrsaHKcTR8yIWh6LlliH+bDFbM4DAF8twerwkFPSovayukrTp+8c7YdA==",
   "success": true,
   "projectFilePath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj",
   "expectedPackageFiles": [
-    "/Users/verhovnyjmag/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.3/microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
-    "/Users/verhovnyjmag/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.3/microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "/Users/verhovnyjmag/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/verhovnyjmag/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/verhovnyjmag/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
   ],
   "logs": []

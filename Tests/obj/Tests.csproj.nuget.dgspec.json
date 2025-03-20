@@ -1,0 +1,482 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/verhovnyjmag/Projects/FinanceDomain/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj",
+        "projectName": "FinanceApp",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj",
+        "projectName": "FinanceCommands",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj",
+        "projectName": "FinanceDataImporterExporter",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj",
+        "projectName": "FinanceFacade",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj",
+        "projectName": "FinanceLibrary",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj",
+        "projectName": "FinTech",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/verhovnyjmag/Projects/FinanceDomain/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/verhovnyjmag/Projects/FinanceDomain/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/Tests/Tests.csproj",
+        "packagesPath": "/Users/verhovnyjmag/.nuget/packages/",
+        "outputPath": "/Users/verhovnyjmag/Projects/FinanceDomain/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/verhovnyjmag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/FinanceApp.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/FinanceDataImporterExporter.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
+              },
+              "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj": {
+                "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/FinTech.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
