@@ -2,57 +2,70 @@
   <MonoDevelop.Ide.ItemProperties.FinanceApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceDataImporterExporter/Import/YamlDataImporter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceFacade/Implementations/BankAccountFacade.cs">
     <Files>
-      <File FileName="FinanceApp/Program.cs" Line="366" Column="1" />
-      <File FileName="FinanceLibrary/Category.cs" Line="4" Column="25" />
-      <File FileName="FinanceLibrary/Operation.cs" />
-      <File FileName="FinanceLibrary/BankAccount.cs" Line="84" Column="10" />
-      <File FileName="FinanceFacade/Interfaces/IBankAccountFacade.cs" />
-      <File FileName="FinanceFacade/Interfaces/ICategoryFacade.cs" />
-      <File FileName="FinanceFacade/Interfaces/IOperationFacade.cs" Line="1" Column="1" />
-      <File FileName="FinanceFacade/Implementations/BankAccountFacade.cs" Line="23" Column="28" />
-      <File FileName="FinanceFacade/Implementations/CategoryFacade.cs" />
-      <File FileName="FinanceFacade/Implementations/OperationFacade.cs" />
-      <File FileName="FinanceCommands/BankAccountCommands/UpdateBankAccountCommand.cs" />
-      <File FileName="FinanceCommands/BankAccountCommands/DeleteBankAccountCommand.cs" Line="1" Column="1" />
-      <File FileName="FinanceCommands/CategoryCommands/CreateCategoryCommand.cs" />
-      <File FileName="FinanceCommands/CategoryCommands/UpdateCategoryCommand.cs" />
-      <File FileName="FinanceCommands/CategoryCommands/DeleteCategoryCommand.cs" />
-      <File FileName="FinanceCommands/OperationCommands/CreateOperationCommand.cs" />
-      <File FileName="FinanceCommands/OperationCommands/DeleteOperationCommand.cs" />
-      <File FileName="FinanceCommands/TimedCommandDecorator.cs" />
-      <File FileName="FinanceCommands/ICommand.cs" />
-      <File FileName="FinanceDataImporterExporter/Import/DataImporter.cs" Line="50" Column="1" />
-      <File FileName="FinanceDataImporterExporter/Import/JsonDataImporter.cs" Line="18" Column="13" />
+      <File FileName="FinanceApp/Program.cs" Line="16" Column="27" />
+      <File FileName="FinanceLibrary/Category.cs" Line="22" Column="22" />
+      <File FileName="FinanceLibrary/Operation.cs" Line="20" Column="21" />
+      <File FileName="FinanceLibrary/BankAccount.cs" Line="86" Column="2" />
+      <File FileName="FinanceFacade/Interfaces/IBankAccountFacade.cs" Line="17" Column="1" />
+      <File FileName="FinanceFacade/Interfaces/ICategoryFacade.cs" Line="17" Column="1" />
+      <File FileName="FinanceFacade/Interfaces/IOperationFacade.cs" Line="18" Column="1" />
+      <File FileName="FinanceFacade/Implementations/BankAccountFacade.cs" Line="61" Column="1" />
+      <File FileName="FinanceFacade/Implementations/CategoryFacade.cs" Line="11" Column="50" />
+      <File FileName="FinanceFacade/Implementations/OperationFacade.cs" Line="61" Column="1" />
+      <File FileName="FinanceCommands/BankAccountCommands/UpdateBankAccountCommand.cs" Line="12" Column="37" />
+      <File FileName="FinanceCommands/BankAccountCommands/DeleteBankAccountCommand.cs" Line="16" Column="6" />
+      <File FileName="FinanceCommands/CategoryCommands/CreateCategoryCommand.cs" Line="15" Column="20" />
+      <File FileName="FinanceCommands/CategoryCommands/UpdateCategoryCommand.cs" Line="17" Column="21" />
+      <File FileName="FinanceCommands/CategoryCommands/DeleteCategoryCommand.cs" Line="17" Column="15" />
+      <File FileName="FinanceCommands/OperationCommands/CreateOperationCommand.cs" Line="19" Column="26" />
+      <File FileName="FinanceCommands/OperationCommands/DeleteOperationCommand.cs" Line="20" Column="2" />
+      <File FileName="FinanceCommands/TimedCommandDecorator.cs" Line="18" Column="36" />
+      <File FileName="FinanceCommands/ICommand.cs" Line="5" Column="1" />
+      <File FileName="FinanceDataImporterExporter/Import/DataImporter.cs" Line="23" Column="1" />
+      <File FileName="FinanceDataImporterExporter/Import/JsonDataImporter.cs" Line="22" Column="2" />
       <File FileName="FinanceDataImporterExporter/Import/CsvDataImporter.cs" Line="63" Column="1" />
-      <File FileName="FinanceDataImporterExporter/Import/YamlDataImporter.cs" Line="18" Column="20" />
-      <File FileName="FinanceLibrary/IExportVisitor.cs" Line="1" Column="1" />
+      <File FileName="FinanceDataImporterExporter/Import/YamlDataImporter.cs" Line="107" Column="1" />
+      <File FileName="FinanceLibrary/IExportVisitor.cs" Line="15" Column="1" />
       <File FileName="FinanceDataImporterExporter/Export/JsonExportVisitor.cs" Line="45" Column="1" />
-      <File FileName="FinanceDataImporterExporter/Export/CsvExportVisitor.cs" Line="31" Column="1" />
-      <File FileName="FinanceDataImporterExporter/Export/YamlExportVisitor.cs" Line="48" Column="1" />
-      <File FileName="FinanceLibrary/Factory/DomainFactory.cs" />
-      <File FileName="FinanceLibrary/Factory/IDomainFactory.cs" />
-      <File FileName="FinTech/RealFinanceManager.cs" Line="145" Column="31" />
-      <File FileName="FinTech/FinanceManagerProxy.cs" Line="73" Column="10" />
-      <File FileName="FinanceCommands/BankAccountCommands/CreateBankAccountCommand.cs" Line="1" Column="1" />
-      <File FileName="FinanceCommands/BankAccountCommands/RecalculateBalanceCommand.cs" />
-      <File FileName="FinanceApp/Colors.cs" />
-      <File FileName="FinTech/FinanceDataExport.cs" Line="12" Column="1" />
-      <File FileName="FinTech/IFinanceManager.cs" Line="28" Column="33" />
+      <File FileName="FinanceDataImporterExporter/Export/CsvExportVisitor.cs" Line="21" Column="10" />
+      <File FileName="FinanceDataImporterExporter/Export/YamlExportVisitor.cs" Line="26" Column="1" />
+      <File FileName="FinanceLibrary/Factory/DomainFactory.cs" Line="17" Column="23" />
+      <File FileName="FinanceLibrary/Factory/IDomainFactory.cs" Line="12" Column="1" />
+      <File FileName="FinTech/RealFinanceManager.cs" Line="147" Column="21" />
+      <File FileName="FinTech/FinanceManagerProxy.cs" Line="78" Column="28" />
+      <File FileName="FinanceCommands/BankAccountCommands/CreateBankAccountCommand.cs" Line="19" Column="6" />
+      <File FileName="FinanceCommands/BankAccountCommands/RecalculateBalanceCommand.cs" Line="17" Column="6" />
+      <File FileName="FinanceApp/Colors.cs" Line="13" Column="21" />
+      <File FileName="FinTech/IFinanceManager.cs" Line="27" Column="26" />
       <File FileName="FinTech/ImportExportData.cs" Line="12" Column="1" />
+      <File FileName="FinanceLibrary/FinanceDataExport.cs" Line="13" Column="1" />
+      <File FileName="FinanceApp/Methods.cs" Line="7" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FinanceDomain" expanded="True">
-            <Node name="FinanceDataImporterExporter">
-              <Node name="Export" expanded="True" />
-              <Node name="Import" expanded="True">
-                <Node name="YamlDataImporter.cs" selected="True" />
-              </Node>
+          <Node name="FinanceDomain">
+            <Node name="FinanceApp" expanded="True" />
+            <Node name="FinanceCommands" expanded="True">
+              <Node name="BankAccountCommands" expanded="True" />
+              <Node name="CategoryCommands" expanded="True" />
+              <Node name="OperationCommands" expanded="True" />
             </Node>
-            <Node name="FinanceLibrary" expanded="True" />
+            <Node name="FinanceDataImporterExporter" expanded="True">
+              <Node name="Export" expanded="True" />
+              <Node name="Import" expanded="True" />
+            </Node>
+            <Node name="FinanceFacade" expanded="True">
+              <Node name="Implementations" expanded="True">
+                <Node name="BankAccountFacade.cs" selected="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+            <Node name="FinanceLibrary" expanded="True">
+              <Node name="Factory" expanded="True" />
+            </Node>
             <Node name="FinTech" expanded="True" />
           </Node>
         </State>
