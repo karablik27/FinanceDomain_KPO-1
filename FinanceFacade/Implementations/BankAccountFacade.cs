@@ -7,12 +7,12 @@ namespace FinanceLibrary.Facades.Implementations
 {
     public class BankAccountFacade : IBankAccountFacade
     {
-        private readonly DomainFactory _factory;
+        private readonly IDomainFactory _factory;
         private readonly Dictionary<Guid, BankAccount> _accounts;
 
-        public BankAccountFacade(DomainFactory factory)
+        public BankAccountFacade(IDomainFactory factory)
         {
-            _factory = factory;
+            _factory = factory ?? throw new ArgumentNullException(nameof(factory));
             _accounts = new Dictionary<Guid, BankAccount>();
         }
 
@@ -47,10 +47,7 @@ namespace FinanceLibrary.Facades.Implementations
             return _accounts[id];
         }
 
-        public IEnumerable<BankAccount> GetAll()
-        {
-            return _accounts.Values;
-        }
+        public IEnumerable<BankAccount> GetAll() => _accounts.Values;
 
         public void RecalculateBalance(Guid accountId, IEnumerable<Operation> operations)
         {

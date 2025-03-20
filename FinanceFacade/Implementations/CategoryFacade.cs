@@ -8,12 +8,12 @@ namespace FinanceLibrary.Facades.Implementations
 {
     public class CategoryFacade : ICategoryFacade
     {
-        private readonly DomainFactory _factory;
+        private readonly IDomainFactory _factory;
         private readonly Dictionary<Guid, Category> _categories;
 
-        public CategoryFacade(DomainFactory factory)
+        public CategoryFacade(IDomainFactory factory)
         {
-            _factory = factory;
+            _factory = factory ?? throw new ArgumentNullException(nameof(factory));
             _categories = new Dictionary<Guid, Category>();
         }
 
@@ -48,10 +48,7 @@ namespace FinanceLibrary.Facades.Implementations
             return _categories[id];
         }
 
-        public IEnumerable<Category> GetAll()
-        {
-            return _categories.Values;
-        }
+        public IEnumerable<Category> GetAll() => _categories.Values;
 
         public IEnumerable<Category> GetByType(CategoryType type)
         {

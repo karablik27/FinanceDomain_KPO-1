@@ -1,28 +1,30 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+
 namespace FinanceDataImporterExporter.Import
 {
     /// <summary>
-    /// Абстрактный класс для импорта данных из файла.
-    /// Использует паттерн "Шаблонный метод".
+    /// Абстрактный класс для импорта данных из файла с использованием паттерна "Шаблонный метод".
     /// </summary>
-    public abstract class DataImporter
+    /// <typeparam name="T">Тип данных, который будет возвращён после импорта (например, FinanceDataExport).</typeparam>
+    public abstract class DataImporter<T>
     {
         /// <summary>
-        /// Метод шаблона для импорта данных.
-        /// Читает содержимое файла, затем вызывает методы для парсинга и обработки данных.
+        /// Общий алгоритм импорта: читает содержимое файла, вызывает метод парсинга, затем обрабатывает данные.
         /// </summary>
         /// <param name="filePath">Путь к файлу импорта.</param>
-        public void Import(string filePath)
+        /// <returns>Импортированные данные типа T.</returns>
+        public T Import(string filePath)
         {
             // Чтение содержимого файла
             string content = File.ReadAllText(filePath);
 
-            // Парсинг данных (реализуется в подклассе)
-            var data = ParseData(content);
+            // Парсинг данных – делегируется конкретному классу-наследнику
+            T data = ParseData(content);
 
-            // Обработка полученных данных (опционально можно переопределить)
+            // Обработка данных (можно переопределить, если требуется)
             ProcessData(data);
+
+            return data;
         }
 
         /// <summary>
@@ -30,20 +32,18 @@ namespace FinanceDataImporterExporter.Import
         /// Каждая конкретная реализация должна реализовать свою логику парсинга.
         /// </summary>
         /// <param name="content">Содержимое файла.</param>
-        /// <returns>Результат парсинга, например, массив или коллекцию объектов.</returns>
-        protected abstract object ParseData(string content);
+        /// <returns>Десериализованный объект типа T.</returns>
+        protected abstract T ParseData(string content);
 
         /// <summary>
         /// Метод для обработки импортированных данных.
-        /// Может быть переопределён в подклассах для специфичной обработки.
+        /// По умолчанию выводит данные в консоль.
         /// </summary>
-        /// <param name="data">Данные, полученные после парсинга.</param>
-        protected virtual void ProcessData(object data)
+        /// <param name="data">Импортированные данные.</param>
+        protected virtual void ProcessData(T data)
         {
-            // Базовая реализация: вывод информации в консоль.
             Console.WriteLine("Импортированные данные:");
             Console.WriteLine(data?.ToString());
         }
     }
 }
-

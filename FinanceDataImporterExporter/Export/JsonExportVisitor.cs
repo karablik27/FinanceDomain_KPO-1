@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
-using FinanceDataImporterExporter.Export;
-using FinanceLibrary; // Здесь находятся ваши доменные классы (BankAccount, Category, Operation)
+using FinanceLibrary;
 
-namespace financial_accounting.Export
+namespace FinanceDataImporterExporter.Export
 {
     /// <summary>
     /// Экспортёр данных в формат JSON с использованием паттерна Посетитель.
@@ -29,9 +28,6 @@ namespace financial_accounting.Export
             _operations.Add(operation);
         }
 
-        /// <summary>
-        /// Возвращает данные, экспортированные в форматированный JSON.
-        /// </summary>
         public string GetResult()
         {
             var result = new

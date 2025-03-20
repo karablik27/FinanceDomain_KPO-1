@@ -9,6 +9,8 @@
       "FinanceApp/1.0.0": {
         "dependencies": {
           "FinTech": "1.0.0",
+          "FinanceCommands": "1.0.0",
+          "FinanceFacade": "1.0.0",
           "FinanceLibrary": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.3"
         },
@@ -43,6 +45,32 @@
           }
         }
       },
+      "FinanceCommands/1.0.0": {
+        "dependencies": {
+          "FinanceFacade": "1.0.0",
+          "FinanceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FinanceCommands.dll": {}
+        }
+      },
+      "FinanceDataImporterExporter/1.0.0": {
+        "dependencies": {
+          "FinanceLibrary": "1.0.0",
+          "YamlDotNet": "16.3.0"
+        },
+        "runtime": {
+          "FinanceDataImporterExporter.dll": {}
+        }
+      },
+      "FinanceFacade/1.0.0": {
+        "dependencies": {
+          "FinanceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FinanceFacade.dll": {}
+        }
+      },
       "FinanceLibrary/1.0.0": {
         "runtime": {
           "FinanceLibrary.dll": {}
@@ -50,6 +78,7 @@
       },
       "FinTech/1.0.0": {
         "dependencies": {
+          "FinanceDataImporterExporter": "1.0.0",
           "FinanceLibrary": "1.0.0",
           "YamlDotNet": "16.3.0"
         },
@@ -85,6 +114,21 @@
       "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
       "path": "yamldotnet/16.3.0",
       "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
+    },
+    "FinanceCommands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceDataImporterExporter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceFacade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FinanceLibrary/1.0.0": {
       "type": "project",

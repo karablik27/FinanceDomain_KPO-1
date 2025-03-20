@@ -50,6 +50,47 @@
           }
         }
       },
+      "FinanceCommands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FinanceFacade": "1.0.0",
+          "FinanceLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinanceCommands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinanceCommands.dll": {}
+        }
+      },
+      "FinanceDataImporterExporter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FinanceLibrary": "1.0.0",
+          "YamlDotNet": "16.3.0"
+        },
+        "compile": {
+          "bin/placeholder/FinanceDataImporterExporter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinanceDataImporterExporter.dll": {}
+        }
+      },
+      "FinanceFacade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FinanceLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinanceFacade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinanceFacade.dll": {}
+        }
+      },
       "FinanceLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -64,6 +105,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "FinanceDataImporterExporter": "1.0.0",
           "FinanceLibrary": "1.0.0",
           "YamlDotNet": "16.3.0"
         },
@@ -160,6 +202,21 @@
         "yamldotnet.nuspec"
       ]
     },
+    "FinanceCommands/1.0.0": {
+      "type": "project",
+      "path": "../FinanceCommands/FinanceCommands.csproj",
+      "msbuildProject": "../FinanceCommands/FinanceCommands.csproj"
+    },
+    "FinanceDataImporterExporter/1.0.0": {
+      "type": "project",
+      "path": "../FinanceDataImporterExporter/FinanceDataImporterExporter.csproj",
+      "msbuildProject": "../FinanceDataImporterExporter/FinanceDataImporterExporter.csproj"
+    },
+    "FinanceFacade/1.0.0": {
+      "type": "project",
+      "path": "../FinanceFacade/FinanceFacade.csproj",
+      "msbuildProject": "../FinanceFacade/FinanceFacade.csproj"
+    },
     "FinanceLibrary/1.0.0": {
       "type": "project",
       "path": "../FinanceLibrary/FinanceLibrary.csproj",
@@ -174,6 +231,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "FinTech >= 1.0.0",
+      "FinanceCommands >= 1.0.0",
+      "FinanceFacade >= 1.0.0",
       "FinanceLibrary >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 9.0.3"
     ]
@@ -204,6 +263,12 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj": {
+              "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/FinanceCommands.csproj"
+            },
+            "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj": {
+              "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceFacade/FinanceFacade.csproj"
+            },
             "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj": {
               "projectPath": "/Users/verhovnyjmag/Projects/FinanceDomain/FinanceLibrary/FinanceLibrary.csproj"
             },

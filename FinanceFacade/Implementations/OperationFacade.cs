@@ -8,12 +8,12 @@ namespace FinanceLibrary.Facades.Implementations
 {
     public class OperationFacade : IOperationFacade
     {
-        private readonly DomainFactory _factory;
+        private readonly IDomainFactory _factory;
         private readonly Dictionary<Guid, Operation> _operations;
 
-        public OperationFacade(DomainFactory factory)
+        public OperationFacade(IDomainFactory factory)
         {
-            _factory = factory;
+            _factory = factory ?? throw new ArgumentNullException(nameof(factory));
             _operations = new Dictionary<Guid, Operation>();
         }
 
@@ -40,10 +40,7 @@ namespace FinanceLibrary.Facades.Implementations
             return _operations[id];
         }
 
-        public IEnumerable<Operation> GetAll()
-        {
-            return _operations.Values;
-        }
+        public IEnumerable<Operation> GetAll() => _operations.Values;
 
         public IEnumerable<Operation> GetByAccount(Guid accountId)
         {

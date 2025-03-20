@@ -1,43 +1,22 @@
-﻿using System;
-using System.Text.Json;
+﻿using System.Text.Json;
+using FinanceLibrary;
 
 namespace FinanceDataImporterExporter.Import
 {
-    /// <summary>
-    /// Импортер данных из JSON-файла.
-    /// </summary>
-    public class JsonDataImporter : DataImporter
+    public class JsonDataImporter : DataImporter<FinanceDataExport>
     {
-        protected override object ParseData(string content)
+        protected override FinanceDataExport ParseData(string content)
         {
-            try
-            {
-                // Парсинг содержимого в JsonDocument
-                JsonDocument doc = JsonDocument.Parse(content);
-                return doc;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Ошибка парсинга JSON: {ex.Message}");
-                throw;
-            }
+            return JsonSerializer.Deserialize<FinanceDataExport>(
+                content,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+            );
         }
 
-        protected override void ProcessData(object data)
+        protected override void ProcessData(FinanceDataExport data)
         {
-            if (data is JsonDocument doc)
-            {
-                // Форматированный вывод с отступами
-                var options = new JsonSerializerOptions { WriteIndented = true };
-                string formattedJson = JsonSerializer.Serialize(doc.RootElement, options);
-                Console.WriteLine("Импортированные данные (JSON):");
-                Console.WriteLine(formattedJson);
-            }
-            else
-            {
-                base.ProcessData(data);
-            }
+            Console.WriteLine("JSON импорт выполнен успешно.");
+            Console.WriteLine($"Счетов: {data.BankAccounts.Count}, Категорий: {data.Categories.Count}, Операций: {data.Operations.Count}");
         }
     }
 }
-

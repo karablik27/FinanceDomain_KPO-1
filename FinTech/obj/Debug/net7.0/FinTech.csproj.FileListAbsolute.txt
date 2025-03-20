@@ -13,3 +13,5 @@
 /Users/verhovnyjmag/Projects/FinanceDomain/FinTech/obj/Debug/net7.0/refint/FinTech.dll
 /Users/verhovnyjmag/Projects/FinanceDomain/FinTech/obj/Debug/net7.0/FinTech.pdb
 /Users/verhovnyjmag/Projects/FinanceDomain/FinTech/obj/Debug/net7.0/ref/FinTech.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/bin/Debug/net7.0/FinanceDataImporterExporter.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinTech/bin/Debug/net7.0/FinanceDataImporterExporter.pdb

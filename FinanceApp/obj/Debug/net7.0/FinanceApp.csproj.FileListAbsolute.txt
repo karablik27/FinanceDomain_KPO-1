@@ -21,3 +21,9 @@
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/YamlDotNet.dll
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinTech.dll
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinTech.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceDataImporterExporter.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceDataImporterExporter.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceCommands.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceFacade.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceFacade.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinanceCommands.pdb

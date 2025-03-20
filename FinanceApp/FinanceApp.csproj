@@ -10,6 +10,8 @@
   <ItemGroup>
     <ProjectReference Include="..\FinanceLibrary\FinanceLibrary.csproj" />
     <ProjectReference Include="..\FinTech\FinTech.csproj" />
+    <ProjectReference Include="..\FinanceFacade\FinanceFacade.csproj" />
+    <ProjectReference Include="..\FinanceCommands\FinanceCommands.csproj" />
   </ItemGroup>
 
   <ItemGroup>

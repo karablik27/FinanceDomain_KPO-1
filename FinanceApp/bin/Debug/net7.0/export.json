@@ -1,0 +1,37 @@
+{
+  "BankAccounts": [
+    {
+      "Id": "5c7d5b90-28e5-462b-8d93-0fad0fcca1e8",
+      "Name": "12",
+      "Balance": 12321
+    },
+    {
+      "Id": "eef8da52-8981-4cdf-a755-76c9b55d42e9",
+      "Name": "313",
+      "Balance": 31232
+    },
+    {
+      "Id": "c6679a7a-b9c6-42f6-8caa-a71f95184067",
+      "Name": "231",
+      "Balance": 123
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "a39fa697-f68f-4f96-bde2-8f03ae8813db",
+      "Type": 0,
+      "Name": "12"
+    }
+  ],
+  "Operations": [
+    {
+      "Id": "18a9de71-9df9-47b5-bbf4-0825eec91e41",
+      "Type": 0,
+      "BankAccountId": "5c7d5b90-28e5-462b-8d93-0fad0fcca1e8",
+      "Amount": 12321,
+      "Date": "2025-03-20T19:44:43.877299+03:00",
+      "Description": "\u041F\u043E\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435",
+      "CategoryId": "a39fa697-f68f-4f96-bde2-8f03ae8813db"
+    }
+  ]
+}

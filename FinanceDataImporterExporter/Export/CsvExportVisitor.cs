@@ -1,9 +1,7 @@
-﻿using System;
-using System.Text;
-using FinanceDataImporterExporter.Export;
+﻿using System.Text;
 using FinanceLibrary;
 
-namespace financial_accounting.Export
+namespace FinanceDataImporterExporter.Export
 {
     /// <summary>
     /// Конкретный посетитель, который формирует CSV-строку.
@@ -27,9 +25,6 @@ namespace financial_accounting.Export
             _sb.AppendLine($"Operation,{operation.Id},{operation.Type},{operation.BankAccountId},{operation.Amount},{operation.Date:O},{operation.Description},{operation.CategoryId}");
         }
 
-        public string GetResult()
-        {
-            return _sb.ToString();
-        }
+        public string GetResult() => _sb.ToString();
     }
 }

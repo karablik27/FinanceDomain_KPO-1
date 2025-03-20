@@ -1,2 +1,5 @@
-BankAccount,7eade520-4ec0-4a56-91cc-2d0b689109a7,ввуц,12
-BankAccount,f71a0f91-bea9-45f1-abc9-93a73154c5c9,вйв,31131
+BankAccount,5c7d5b90-28e5-462b-8d93-0fad0fcca1e8,12,12321
+BankAccount,eef8da52-8981-4cdf-a755-76c9b55d42e9,313,31232
+BankAccount,c6679a7a-b9c6-42f6-8caa-a71f95184067,231,123
+Category,a39fa697-f68f-4f96-bde2-8f03ae8813db,Income,12
+Operation,18a9de71-9df9-47b5-bbf4-0825eec91e41,Income,5c7d5b90-28e5-462b-8d93-0fad0fcca1e8,12321,2025-03-20T19:44:43.8772990+03:00,Пополнение,a39fa697-f68f-4f96-bde2-8f03ae8813db

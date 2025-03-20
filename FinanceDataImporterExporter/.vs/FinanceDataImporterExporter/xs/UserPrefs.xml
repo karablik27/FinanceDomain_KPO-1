@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Import/DataImporter.cs">
+    <Files>
+      <File FileName="Import/CsvDataImporter.cs" Line="1" Column="1" />
+      <File FileName="Import/DataImporter.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinanceDataImporterExporter">
+            <Node name="FinanceDataImporterExporter" expanded="True">
+              <Node name="Import" expanded="True">
+                <Node name="DataImporter.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

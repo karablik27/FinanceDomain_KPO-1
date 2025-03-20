@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinanceLibrary\FinanceLibrary.csproj" />
+    <ProjectReference Include="..\FinanceDataImporterExporter\FinanceDataImporterExporter.csproj" />
   </ItemGroup>
 
   <ItemGroup>

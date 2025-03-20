@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
-using FinanceDataImporterExporter.Export;
 using FinanceLibrary;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace financial_accounting.Export
+namespace FinanceDataImporterExporter.Export
 {
     /// <summary>
     /// Экспортёр данных в формат YAML с использованием паттерна Посетитель.
@@ -30,9 +29,6 @@ namespace financial_accounting.Export
             _operations.Add(operation);
         }
 
-        /// <summary>
-        /// Возвращает данные, экспортированные в формат YAML.
-        /// </summary>
         public string GetResult()
         {
             var result = new
