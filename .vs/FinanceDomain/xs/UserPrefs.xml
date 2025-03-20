@@ -1,23 +1,28 @@
 ﻿<Properties StartupConfiguration="{B83C4AAF-1896-4A71-8A84-6B76EC401F08}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceLibrary/Factory/IDomainFactory.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FinanceFacade FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceApp/Program.cs">
     <Files>
-      <File FileName="FinanceApp/Program.cs" />
+      <File FileName="FinanceApp/Program.cs" Line="10" Column="1" />
       <File FileName="FinanceLibrary/Category.cs" Line="45" Column="10" />
-      <File FileName="FinanceLibrary/Operation.cs" Line="49" Column="1" />
-      <File FileName="FinanceLibrary/BankAccount.cs" Line="72" Column="10" />
+      <File FileName="FinanceLibrary/Operation.cs" />
+      <File FileName="FinanceLibrary/BankAccount.cs" />
       <File FileName="FinanceFacade/Interfaces/IBankAccountFacade.cs" />
       <File FileName="FinanceFacade/Interfaces/ICategoryFacade.cs" />
-      <File FileName="FinanceFacade/Interfaces/IOperationFacade.cs" Line="18" Column="1" />
+      <File FileName="FinanceFacade/Interfaces/IOperationFacade.cs" />
       <File FileName="FinanceFacade/Implementations/BankAccountFacade.cs" />
       <File FileName="FinanceFacade/Implementations/CategoryFacade.cs" />
-      <File FileName="FinanceFacade/Implementations/OperationFacade.cs" Line="40" Column="20" />
+      <File FileName="FinanceFacade/Implementations/OperationFacade.cs" />
       <File FileName="FinanceCommands/BankAccountCommands/UpdateBankAccountCommand.cs" />
       <File FileName="FinanceCommands/BankAccountCommands/DeleteBankAccountCommand.cs" />
-      <File FileName="FinanceCommands/CategoryCommands/CreateCategoryCommand.cs" />
+      <File FileName="FinanceCommands/CategoryCommands/CreateCategoryCommand.cs" Line="1" Column="1" />
       <File FileName="FinanceCommands/CategoryCommands/UpdateCategoryCommand.cs" />
       <File FileName="FinanceCommands/CategoryCommands/DeleteCategoryCommand.cs" />
-      <File FileName="FinanceCommands/OperationCommands/CreateOperationCommand.cs" Line="30" Column="1" />
-      <File FileName="FinanceCommands/OperationCommands/DeleteOperationCommand.cs" Line="21" Column="1" />
+      <File FileName="FinanceCommands/OperationCommands/CreateOperationCommand.cs" />
+      <File FileName="FinanceCommands/OperationCommands/DeleteOperationCommand.cs" />
       <File FileName="FinanceCommands/TimedCommandDecorator.cs" />
       <File FileName="FinanceCommands/ICommand.cs" />
       <File FileName="FinanceDataImporterExporter/Import/DataImporter.cs" />
@@ -28,35 +33,25 @@
       <File FileName="FinanceDataImporterExporter/Export/JsonExportVisitor.cs" />
       <File FileName="FinanceDataImporterExporter/Export/CsvExportVisitor.cs" />
       <File FileName="FinanceDataImporterExporter/Export/YamlExportVisitor.cs" />
-      <File FileName="FinanceLibrary/Factory/DomainFactory.cs" Line="22" Column="1" />
-      <File FileName="FinanceLibrary/Factory/IDomainFactory.cs" Line="9" Column="1" />
+      <File FileName="FinanceLibrary/Factory/DomainFactory.cs" />
+      <File FileName="FinanceLibrary/Factory/IDomainFactory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinanceDomain" expanded="True">
-            <Node name="FinanceApp" expanded="True" />
-            <Node name="FinanceFacade" expanded="True">
-              <Node name="Implementations" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
+            <Node name="FinanceApp" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="FinanceLibrary" expanded="True">
-              <Node name="Factory" expanded="True">
-                <Node name="IDomainFactory.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="FinanceCommands" expanded="True" />
+            <Node name="FinanceLibrary" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FinanceApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.FinanceFacade FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FinanceApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FinanceCommands FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
