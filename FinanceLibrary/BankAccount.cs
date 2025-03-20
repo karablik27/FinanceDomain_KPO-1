@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace FinanceLibrary
 {
@@ -10,15 +11,27 @@ namespace FinanceLibrary
         public string Name { get; private set; }
         public decimal Balance { get; private set; }
 
-        public BankAccount(Guid id, string name, decimal initialBalance = 0)
+        // Основной конструктор для создания нового счета
+        public BankAccount(string name, decimal initialBalance = 0)
         {
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Название счета не может быть пустым.", nameof(name));
             if (initialBalance < 0)
                 throw new ArgumentException("Начальный баланс не может быть отрицательным.", nameof(initialBalance));
-            Id = id;
+
+            Id = Guid.NewGuid();
             Name = name;
             Balance = initialBalance;
+        }
+
+        // Конструктор для десериализации
+        [JsonConstructor]
+        public BankAccount(Guid id, string name, decimal balance)
+            : this(name, balance)
+        {
+            if (id == Guid.Empty)
+                throw new ArgumentException("ID счета не может быть пустым.", nameof(id));
+            Id = id;
         }
 
         public void Deposit(decimal amount)
@@ -51,7 +64,6 @@ namespace FinanceLibrary
         /// <summary>
         /// Пересчитывает баланс на основе списка операций.
         /// </summary>
-        /// <param name="operations">Набор операций, относящихся к этому счету.</param>
         public void RecalculateBalance(IEnumerable<Operation> operations)
         {
             if (operations == null)

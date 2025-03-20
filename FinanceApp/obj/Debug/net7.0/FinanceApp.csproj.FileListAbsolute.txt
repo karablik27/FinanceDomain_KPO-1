@@ -16,3 +16,8 @@
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/obj/Debug/net7.0/FinanceApp.pdb
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/obj/Debug/net7.0/FinanceApp.genruntimeconfig.cache
 /Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/obj/Debug/net7.0/ref/FinanceApp.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/YamlDotNet.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinTech.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceApp/bin/Debug/net7.0/FinTech.pdb

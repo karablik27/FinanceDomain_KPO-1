@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FinanceCommands/1.0.0": {
+        "dependencies": {
+          "FinanceFacade": "1.0.0",
+          "FinanceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FinanceCommands.dll": {}
+        }
+      },
+      "FinanceFacade/1.0.0": {
+        "dependencies": {
+          "FinanceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FinanceFacade.dll": {}
+        }
+      },
+      "FinanceLibrary/1.0.0": {
+        "runtime": {
+          "FinanceLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinanceCommands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceFacade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

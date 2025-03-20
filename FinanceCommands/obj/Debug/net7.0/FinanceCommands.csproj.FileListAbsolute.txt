@@ -1,0 +1,17 @@
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceCommands.deps.json
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceCommands.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceCommands.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceFacade.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceLibrary.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceLibrary.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/bin/Debug/net7.0/FinanceFacade.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.csproj.AssemblyReference.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.GeneratedMSBuildEditorConfig.editorconfig
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.AssemblyInfoInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.AssemblyInfo.cs
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.csproj.CoreCompileInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.csproj.CopyComplete
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/refint/FinanceCommands.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/FinanceCommands.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceCommands/obj/Debug/net7.0/ref/FinanceCommands.dll

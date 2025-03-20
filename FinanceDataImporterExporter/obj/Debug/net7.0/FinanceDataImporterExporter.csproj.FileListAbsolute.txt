@@ -1,0 +1,15 @@
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/bin/Debug/net7.0/FinanceDataImporterExporter.deps.json
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/bin/Debug/net7.0/FinanceDataImporterExporter.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/bin/Debug/net7.0/FinanceDataImporterExporter.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/bin/Debug/net7.0/FinanceLibrary.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/bin/Debug/net7.0/FinanceLibrary.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.csproj.AssemblyReference.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.AssemblyInfoInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.AssemblyInfo.cs
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.csproj.CoreCompileInputs.cache
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.csproj.CopyComplete
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/refint/FinanceDataImporterExporter.dll
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/FinanceDataImporterExporter.pdb
+/Users/verhovnyjmag/Projects/FinanceDomain/FinanceDataImporterExporter/obj/Debug/net7.0/ref/FinanceDataImporterExporter.dll

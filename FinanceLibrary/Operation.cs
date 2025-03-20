@@ -19,10 +19,7 @@ namespace FinanceLibrary
         public string Description { get; private set; }
         public Guid CategoryId { get; private set; }
 
-        /// <summary>
-        /// Основной конструктор для создания новой операции.
-        /// Генерирует новый ID и выполняет валидацию остальных параметров.
-        /// </summary>
+        // Основной конструктор для создания новой операции
         public Operation(OperationType type, Guid bankAccountId, decimal amount, DateTime date, string description, Guid categoryId)
         {
             if (bankAccountId == Guid.Empty)
@@ -47,18 +44,13 @@ namespace FinanceLibrary
             CategoryId = categoryId;
         }
 
-        /// <summary>
-        /// Конструктор для десериализации.
-        /// Позволяет установить ID из входных данных (например, из JSON).
-        /// </summary>
+        // Конструктор для десериализации
         [JsonConstructor]
         public Operation(Guid id, OperationType type, Guid bankAccountId, decimal amount, DateTime date, string description, Guid categoryId)
             : this(type, bankAccountId, amount, date, description, categoryId)
         {
             if (id == Guid.Empty)
                 throw new ArgumentException("ID операции не может быть пустым.", nameof(id));
-
-            // Заменяем сгенерированный ID на переданный
             Id = id;
         }
 
@@ -73,4 +65,3 @@ namespace FinanceLibrary
         }
     }
 }
-

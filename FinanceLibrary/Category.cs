@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 
 namespace FinanceLibrary
 {
@@ -14,19 +15,30 @@ namespace FinanceLibrary
         public CategoryType Type { get; private set; }
         public string Name { get; private set; }
 
-        public Category(Guid id, CategoryType type, string name)
+        // Основной конструктор для создания новой категории
+        public Category(string name, CategoryType type)
         {
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Название категории не может быть пустым.", nameof(name));
-            Id = id;
-            Type = type;
+
+            Id = Guid.NewGuid();
             Name = name;
+            Type = type;
+        }
+
+        // Конструктор для десериализации
+        [JsonConstructor]
+        public Category(Guid id, CategoryType type, string name)
+            : this(name, type)
+        {
+            if (id == Guid.Empty)
+                throw new ArgumentException("ID категории не может быть пустым.", nameof(id));
+            Id = id;
         }
 
         /// <summary>
         /// Обновляет имя категории.
         /// </summary>
-        /// <param name="newName">Новое имя категории.</param>
         public void UpdateName(string newName)
         {
             if (string.IsNullOrWhiteSpace(newName))
